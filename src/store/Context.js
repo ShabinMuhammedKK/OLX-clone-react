@@ -10,6 +10,6 @@ export default function Context ({children}) {
         <AuthContext.Provider value={{user,setUser}}>
             {children}
         </AuthContext.Provider>
-        fag
+    
     )
 }
